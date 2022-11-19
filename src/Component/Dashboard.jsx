@@ -6,7 +6,6 @@ function Dashboard() {
     if (!localStorage.getItem('logged') ) {
         console.log('if worikg')
         window.location.replace('/login')
-       // navigate('/signup')
         return null;
     }
     const { name,phone,email}  = JSON.parse(localStorage.getItem('logged'));

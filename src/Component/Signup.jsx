@@ -4,7 +4,6 @@ import Stack from '@mui/material/Stack';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { useNavigate } from "react-router-dom";
-import Header from './Header';
 function Signup() {
     const navigate = useNavigate();
     const [erName, setErName] = useState(false)

@@ -8,7 +8,6 @@ import {
 import Login from './Component/Login';
 import Signup from './Component/Signup';
 import Dashboard from './Component/Dashboard';
-import HomePage from './Component/HomePage';
 
 function App() {
   const router = createBrowserRouter([
